@@ -3,4 +3,5 @@ from . import views
 
 urlpatterns = [
     path("", views.index, name="home-page"),
+    path("<slug:slug>", views.book_detail, name="book-detail")
 ]
