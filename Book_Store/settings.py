@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-rvz*gwsdye_sjm1jip0v-4mw1fb$mv*!gf5%(g&#p2$7r!$0%f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.vercel.app', "https://book-store-kappa-umber.vercel.app/"]
 
 
 # Application definition
